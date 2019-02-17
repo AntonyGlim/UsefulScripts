@@ -5,9 +5,9 @@ import java.io.FileOutputStream;
 
 /**
  * https://javarush.ru/quests/lectures/questcore.level08.lecture02
- * Копирование по байтам
+ * Копирование по 1 байту
  */
-public class CopyFiles {
+public class CopyFilesByteByByte {
     public static void main(String[] args) throws Exception
     {
         FileInputStream inputStream = new FileInputStream("c:/data.txt"); //Создаем поток-чтения-байт-из-файла
