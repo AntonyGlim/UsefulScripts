@@ -14,14 +14,14 @@ public class ReadDataFromFile {
     public static void main(String[] args) {
 
         try{
-            FileInputStream fstream = new FileInputStream("C:/file.txt");
-            BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+            FileInputStream fileInputStream = new FileInputStream("C:/file.txt");
+            BufferedReader reader = new BufferedReader(new InputStreamReader(fileInputStream));
             String strLine;
-            while ((strLine = br.readLine()) != null){
+            while ((strLine = reader.readLine()) != null){
                 System.out.println(strLine);
             }
-            br.close();
-            fstream.close();
+            reader.close();
+            fileInputStream.close();
         }catch (IOException e){
             System.out.println("Ошибка чтения файла");
         }
