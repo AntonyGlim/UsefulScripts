@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
  * Этот пример читает содержимое текстового файла, по одной строке за раз,
  * используя BufferedReader. Каждая текстовая строка выводится на экран.
  */
-public class readDataFromFile {
+public class ReadDataFromFile {
     public static void main(String[] args) {
 
         try{
@@ -20,8 +20,10 @@ public class readDataFromFile {
             while ((strLine = br.readLine()) != null){
                 System.out.println(strLine);
             }
+            br.close();
+            fstream.close();
         }catch (IOException e){
-            System.out.println("Ошибка");
+            System.out.println("Ошибка чтения файла");
         }
 
     }
