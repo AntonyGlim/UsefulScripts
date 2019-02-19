@@ -3,6 +3,10 @@ package IO;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
+/**
+ * https://javarush.ru/quests/lectures/questcore.level08.lecture02
+ * Копирование по массиву байт
+ */
 public class CopyFilesByByteArray {
     public static void main(String[] args) throws Exception {
 
