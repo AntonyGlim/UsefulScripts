@@ -9,5 +9,5 @@ package classObject;
  * public int hashCode()
  */
 public class EqualsAndHashCod {
-    
+
 }
