@@ -1,4 +1,4 @@
-package classObject;
+package class_object;
 
 /**
  * https://javarush.ru/groups/posts/1340-peregruzka-metodov-equals-i-hashcode-v-java
