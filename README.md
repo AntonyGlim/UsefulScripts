@@ -8,3 +8,4 @@
 * Чтения файла
 * Логера
 * Регулярных выражений и др.
+* JavaScript учебник https://learn.javascript.ru/first-steps
